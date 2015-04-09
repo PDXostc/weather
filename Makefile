@@ -73,7 +73,7 @@ wgtPkg: common
 
 clean:
 	rm -rf js/services
-	rm -rf common
+	rm -rf DNA_common
 	rm -rf css/car
 	rm -rf css/user
 	rm -f $(PROJECT).wgt
