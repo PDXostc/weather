@@ -301,13 +301,16 @@ li {
   align-items: flex-end;    
   justify-content: space-between;
 }
-#bottomBarLogoImg {
-  content:url('/images/accuweather_icon.png');
+
+#bbar-logo {
+  background-image:url('/images/accuweather_icon.png');
 }
+
 #app {
   flex-direction: column;
   border: 2px solid rgba(255,255,255, 0.5);
 }
+
 ul .settingElement {
   margin: 0 40px; 
 }
